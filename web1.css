@@ -1,0 +1,53 @@
+.navbar {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 10px;
+}
+
+.navbar a {
+    font-size: medium;
+    color: chocolate;
+    padding: 0 15px; 
+}
+.div-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.div-section div{
+    width: 150px;
+    height: 200px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+.div-section i,p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+/* table .border{
+    border: 10px;
+} */
+ .table-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+ }
+table {
+    width: 700px; 
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+th, td {
+    text-align: left; 
+    border: 1px solid black; 
+}
+
+th {
+    border: none;
+    text-align: center;
+}
