@@ -1,0 +1,60 @@
+.navbar {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 10px;
+}
+
+.navbar a {
+    font-size: medium;
+    color: chocolate;
+    padding: 0 15px; 
+}
+
+
+.text-area{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 120px;
+    margin-top: 50px;
+}
+.text-area span {
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+
+.div-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
+.div-section div{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(255, 153, 235);
+    border-radius: 10px;
+}
+.div-section i,p,a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.div-section i{
+    margin-top: 60px;
+}
+.div-section a{
+    background-color: cyan;
+    padding: 5px;
+    width: 40px;
+    border-radius: 8px;
+    margin: auto;
+}
+
